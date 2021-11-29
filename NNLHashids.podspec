@@ -8,14 +8,15 @@ Pod::Spec.new do |s|
                     unique, non-sequential ids from numbers. For more
                     information, check out http://hashids.org/
                    DESC
-  s.homepage      = "https://github.com/DrGodCarl/hashids-objc"
+  s.homepage      = "https://github.com/chinabrant/hashids-objc.git"
   s.license       = "MIT"
   s.author        = { "Carl D. Benson" => "carl.d.benson@gmail.com" }
-  s.source        = {
-    :git => "https://github.com/DrGodCarl/hashids-objc.git",
-    :tag => "#{s.version}",
-    :submodules => true
-  }
+  #s.source        = {
+  #  :git => "https://github.com/DrGodCarl/hashids-objc.git",
+  #  :tag => "#{s.version}",
+  #  :submodules => true
+  #}
+	s.source = 'https://github.com/chinabrant/hashids-objc.git'
   s.source_files  = "Hashids", "Hashids/**/*.{h,m,c}"
   s.exclude_files = "Hashids/hashids.c/main.c", "Hashids/hashids.c/test.c"
 end
