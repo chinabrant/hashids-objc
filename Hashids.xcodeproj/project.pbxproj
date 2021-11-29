@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA3855571F76FB3C008E2D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CE871CF0231800219779 /* main.m */; };
 		CA55CE481CEFF8EF00219779 /* NNLHashids.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CE471CEFF8EF00219779 /* NNLHashids.m */; };
 		CA55CE7B1CF01A7400219779 /* hashids.c in Sources */ = {isa = PBXBuildFile; fileRef = CA55CE721CF01A7400219779 /* hashids.c */; };
 		CA55CE951CF025D100219779 /* NNLHashidsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CE941CF025D100219779 /* NNLHashidsTests.m */; };
@@ -40,7 +39,6 @@
 		CA55CE761CF01A7400219779 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		CA55CE771CF01A7400219779 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA55CE781CF01A7400219779 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
-		CA55CE871CF0231800219779 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA55CE921CF025D100219779 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA55CE941CF025D100219779 /* NNLHashidsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNLHashidsTests.m; sourceTree = "<group>"; };
 		CA55CE961CF025D100219779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 				CA55CE6F1CF01A7400219779 /* hashids.c */,
 				CA55CE461CEFF8EF00219779 /* NNLHashids.h */,
 				CA55CE471CEFF8EF00219779 /* NNLHashids.m */,
-				CA55CE871CF0231800219779 /* main.m */,
 			);
 			path = Hashids;
 			sourceTree = "<group>";
@@ -177,6 +174,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CA55CE301CEFF87200219779;
@@ -205,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA3855571F76FB3C008E2D4C /* main.m in Sources */,
 				CA55CE7B1CF01A7400219779 /* hashids.c in Sources */,
 				CA55CE481CEFF8EF00219779 /* NNLHashids.m in Sources */,
 			);
