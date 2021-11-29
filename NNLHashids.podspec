@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #  :tag => "#{s.version}",
   #  :submodules => true
   #}
-	s.source = 'https://github.com/chinabrant/hashids-objc.git'
+  s.source = { :git => "https://github.com/chinabrant/hashids-objc.git" }
   s.source_files  = "Hashids", "Hashids/**/*.{h,m,c}"
   s.exclude_files = "Hashids/hashids.c/main.c", "Hashids/hashids.c/test.c"
 end
