@@ -7,7 +7,7 @@
 //
 
 #import "NNLHashids.h"
-#include "hashids.c/hashids.h"
+#import "hashids.h"
 
 @interface NNLHashids ()
 
